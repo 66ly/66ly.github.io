@@ -34,7 +34,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
       	  </button>
-      	  <span class="navbar-brand">NO.66</span>
+      	  <a class="navbar-brand" href="#" data-toggle='modal' data-target='#welcome'>NO.66</a>
       	</div> <!--end of responsive part-->
 		
 		<!--collect the nav links-->
@@ -127,8 +127,21 @@
   	<div class="content row">
   		<hr class='divider'></hr>
 	    <div class="col-md-8">
-	    	<p></p>
-	    </div>
+	    	
+	    	<h3 class="text-center"><a href="#">JavaSrcipt: Online Prize System</a></h3>
+	    	<p class="text-center">Using JS to implement an online prize system<br>Set a timer: timer = setInterval(function(){…… 
+	},50);<br>Pay attention: Before set the timer, we must clearInterval(timer);</p>
+	    	
+	    	<hr class='divider'></hr>
+	    	<h3 class="text-center"><a href="#">Deep Learning: Convolutional Neural Network</a></h3>
+	    	<p class="text-center">For a quick start of deep learning, we can use Python package:nolearn.<br>it is a powerful tool very similar to scikit learning.<br> Ex: OCR problem for research.</p>
+	    	
+	    	<hr class='divider'></hr>
+	    	<h3 class="text-center"><a href="#">Future Study Plan</a></h3>
+	    	<p class="text-center">Studying JQuery Now.Foucused on JS anime part.<br>Someone told me that I should rewrite the CSS part. Because Bootstrap is too LOW (lol)<br>This is the wesite maybe I can try later~<br><a href="https://bootswatch.com/">https://bootswatch.com/</a></p>
+	    
+	    </div> <!--end of col-md-8-->
+
 	    <div class="col-md-4">
 	    	<ul class="list-unstyled">
   				<h4><b>Computer Skills</b></h4>
@@ -149,9 +162,34 @@
   				<li><a href="https://en.wikipedia.org/wiki/Summer_Wars">サマーウォーズ</a></li>
   				<li><a href="https://en.wikipedia.org/wiki/Steamboy">スチームボーイ</a></li>
 			</ul>
-	    </div>
+	    </div><!--end of col-md-4-->
   	</div>
-	</div>
+	</div><!--end of main container grid system-->
+
+	<!--rights reseved-->
+	<footer id='footer'>
+		<p class='pull-right'><a href="#top">back to top</a></p>
+		<p>© Tyler Zhang 2016</p>
+	</footer>
+
+	<!--model start-->
+	<div class="modal fade" tabindex="-1" role="dialog" id='welcome'>
+  	<div class="modal-dialog">
+    <div class="modal-content">
+	      <div class="modal-header"> 
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">WELCOME!</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>Welcome to 66ly's homepage~This page is bulit based on Bootstrap Framework.&hellip;</p>
+	        <p>To see the source code please visit my Github page~https://github.com/66ly</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+    </div><!-- /.modal-content -->
+  	</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
 
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

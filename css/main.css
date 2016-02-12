@@ -53,9 +53,16 @@ body{
 	padding-bottom: 30px;
 	background: url(../images/background.jpg) repeat;
 }
+.content .col-md-8 p{
+	padding-bottom: 10px;
+}
 
 .content .col-md-4 li{
 	padding-bottom: 10px;
 	padding-left: 5px;
 }
+#footer p{
+	color: #959494;
+}
+
 
