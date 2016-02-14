@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript Library</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jsshow.css">
+    <script src="js/script.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+  		<div class="container">
+  		    <!--responsive part for better mobile-->
+	    	<div class="navbar-header">   	  
+	      	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+	      	  </button>
+	      	  <a class="navbar-brand" href="#" data-toggle='modal' data-target='#welcome'>NO.66</a>
+	      	</div> <!--end of responsive part-->
+		
+		<!--collect the nav links-->
+	      	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      		<ul class="nav navbar-nav">
+	        		<li><a href="index.html">HOME</a></li>
+	        		<li><a href="#">ARTICLE</a></li>
+	        		
+	        		<!--dropdown menu for Article list-->
+	        		<li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="active">PROFILE <span class="caret"></span><span class="sr-only">(current)</span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="#">Resume</a></li>
+			            <li ><a href="#">Projects</a></li>
+			          </ul>
+			        </li> <!--end of menu-->
+					
+					<!--dropdown menu for Article list-->
+	        		<li class="dropdown">
+			          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">INTEREST<span class="caret"></span></a>
+			          <ul class="dropdown-menu">
+			            <li><a href="http://www.pixiv.net/member.php?id=1671732">Digital Painting</a></li>
+			            <li><a href="#">Anime Comics Games</a></li>
+			          </ul>
+			        </li> <!--end of menu-->
+	        	
+	        	</ul>
+			  </div><!--end of navbar-->
+	    </div><!--container-->
+	    </nav> <!--nav end-->
+
+		
+		
+		<!--div class="container"-->
+  		<div class="content row">
+  			<hr class='divider'></hr>	
+  				
+  				<div class="col-md-2"> 
+  				    <!--js speed animation NO.1-->
+					<div id='js1'><span id='show'>Show Me!</span></div>
+
+  				</div>
+
+	    		<div class="col-md-6">
+	    			<div id='context1'><h1><strong>Move Action by JavaScript</strong></h1>
+	    				<p>These two animation (Below and Left) is written by JavaScript. MouseOver effect.No JQuery. Here is the source code: </p>
+	    				<p>左方与右方是用JavaSript制作的基本动画效果，鼠标划过触发，无JQuery。这是源代码：</p>
+					<!--js opacity animation -->
+						<p><a href="js/script.js">source code</a></p>
+						<p>Including: Changing Speed Motion, Chain Motion, Concurrent Motion</p>
+						<p>Hope you like it. In fact, there are some 'pitfalls' when coding. So please pay attention.</p>
+						<div id='js2'>50</div>		   
+	    			</div>
+	  										
+	    		</div> <!--end of col-md-6-->
+					
+	            <div class="col-md-4">
+			    	<ul class="list-unstyled">
+		  				<h4><b>Computer Skills</b></h4>
+		  				<li><a href="#">JAVA</a></li>
+		  				<li><a href="#">Python</a></li>
+		  				<li><a href="JSshow.html">JavaScript</a></li>
+		  				<li><a href="#">HTML/CSS</a></li>
+		  				<li><a href="#">Photoshop</a></li>
+		  				<li><a href="#">SAI</a></li>
+					</ul>
+				    <ul class="list-unstyled">
+		  				<h4><b>Science and Tech Topics</b></h4>
+		  				<li><a href="#">Physics</a></li>
+		  				<li><a href="#">Mathematics</a></li>
+					</ul>
+					<ul class="list-unstyled">
+		  				<h4><b>ACG related</b></h4>
+		  				<li><a href="https://en.wikipedia.org/wiki/Summer_Wars">サマーウォーズ</a></li>
+		  				<li><a href="https://en.wikipedia.org/wiki/Steamboy">スチームボーイ</a></li>
+					</ul>
+	    		</div><!--end of col-md-4-->
+  		</div>
+		<!--/div--><!--end of main container grid system-->
+		
+
+	    
+	    <!--rights reseved-->
+		<footer id='footer'>
+		  <p class='pull-right'><a href="#top">back to top</a></p>
+		  <p>© Tyler Zhang 2016</p>
+		</footer>
+  	
+
+
+  	<script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
